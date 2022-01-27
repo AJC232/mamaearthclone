@@ -531,6 +531,46 @@ header hr{
 .tile8:hover{
     cursor: pointer;
 }
+@media (max-wIdth:600px){
+    .mainContent{
+        margin: 0;
+        width: 100%;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+    .tile1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile3{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile4{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile5{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile6{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile7{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tile8{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
 .loadMore{
     height: 100%;
     width: 100%;
@@ -719,6 +759,12 @@ header hr{
     }
     .foot2 .payment{
         align-items: center;
+    }
+    .foot2 .payment img{
+        width: 50px;
+    }
+    .foot2 p{
+        font-size: 0.75rem;
     }
     .foot2 .certifites h3{
         text-align: center;
